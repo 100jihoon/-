@@ -1,0 +1,13 @@
+#include <stdio.h>
+int main() 
+{
+  int input;  // input에 숫자 넣기
+  
+  scanf("%d", &input);   // input에 들어간 숫자가 %d로 입력
+  printf("=====%d단=====\n", input);     // input에 들어간 숫자가 %d로 입력
+  for (int i = 1; i<=9; i++)  // int i는 1이고 i가 9보다 작거나 같을때까지 실행
+    {
+      printf("%d*%d = %d\n", input, i, input*i); 
+    }
+  return 0;
+}
